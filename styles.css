@@ -1,0 +1,39 @@
+[class*="span"] {
+    background: #eee;
+    margin-bottom: 10px;
+}
+
+.thumbnails{
+    display: flex;
+    flex-direction: row;
+}
+
+.section {
+    display: flex;
+}
+
+.span2 {
+    flex: 3; 
+    padding: 20px;
+}
+
+.span3 {
+    margin-left: 20px;
+    flex: 1;
+    height: 200px; 
+    padding: 20px;
+}
+
+.image {
+    margin: 10px; 
+} 
+
+.thumbnails img {
+    max-width: 100%; 
+}
+
+a:focus, button:focus{
+    border: 2px solid red;
+    outline-style: solid;
+    outline-color: red;
+}
